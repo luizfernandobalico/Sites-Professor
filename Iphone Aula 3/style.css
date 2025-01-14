@@ -1,0 +1,154 @@
+* {
+   font-family: sans-serif;
+   /* Navegador Google Chrome coloca no canto Esquerdo */
+   margin: 0;
+   /* Margem  Externa  */
+   padding: 0;
+   /* Margem Interna */
+   box-sizing: border-box;
+   /* Forma que o CSS - Calcula as distãncias */
+}
+
+/* MENU SUPERIOR */
+
+.caixa-roxa {
+   display: flex;
+   height: 50px;
+   align-items: center;
+   justify-content: center;
+   border-bottom: 1px solid #7a7777;
+}
+
+ul {
+   display: flex;
+   gap: 100px;
+   list-style: none;
+   margin-left: 100px;
+
+}
+
+li {
+   font-size: 14px;
+   font-weight: 400px;
+   color: #373737;
+}
+
+
+.logo {
+   height: 20px;
+
+}
+
+
+
+
+
+/* PARTE INFERIOR */
+.caixa-azul {
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+    padding: 50px;
+  }
+
+.titulo-iphone {
+   font-size: 30px;
+}
+
+.titulo-secundario {
+   font-size: 40px;
+   margin-top: 10px;
+   margim-bottom: 20px;
+   
+
+}
+
+.paragrafo {
+   font-size: 15px;
+   margin-bottom: 25px;
+
+}
+
+
+.preco {
+   font-size: 20px;
+   color: #626262;
+   font-weight: 300;
+   font-family: sans-serif;
+   margin-bottom: 30px;
+}
+
+.botao {
+   background-color: #0071e3;
+   color: #ffffff;
+   padding: 10px 20px;
+   /*10 em cima e 20 dos lados */
+   border: none;
+   /* Sem cõr na borda */
+   border-radius: 20px;
+   /* Arredendamento da Borda */
+   font-size: 20px;
+   /*Aumentar o texto de dentro do Botão */
+   cursor: pointer;
+}
+
+/* Troca cor de todos os Botões abaixo */
+.troca-cor {
+   width: 40px;
+   height: 40px;
+   border-radius: 50px;
+   border: none;
+   cursor: pointer;
+   /* Mouse fica a mãozinha */
+}
+
+.azul {
+   background-color: #81A5C4;
+}
+
+.amarelo {
+   background-color: #e5f322;
+}
+
+.branco {
+   background-color: #C1C1C1;
+}
+
+
+.preto {
+   background-color: #050505;
+}
+
+.vermelho {
+   background-color: #e20f0f;
+}
+
+.roxo {
+   background-color: #be0aa0;
+}
+
+.escolha-cor {
+
+   font-size: 16px;
+   color: #3b3a3a;
+   font-weight: 700;
+   margin-top: 50px;
+   margin-bottom: 15px;
+  
+
+
+   .iphone {
+      width: 450px;
+      margin-top: 100px;
+      z-index: 99;
+   }
+
+   .circulo {
+      width: 100%;
+      height: 100%;
+      background: #81A5C4;
+      position: absolute;
+      top: 0;
+      left: 0;
+      clip-path: circle(600px at right 1000px);
+   }

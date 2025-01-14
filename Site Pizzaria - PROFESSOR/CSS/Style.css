@@ -1,0 +1,185 @@
+@charset "utf-8";
+/* CSS Document */
+
+header,
+section,
+footer,
+aside,
+nav,
+article,
+figure,
+figcaption {
+display: block; 
+} 
+
+body {
+	background-color: #f9f8f6;
+	background-image: url("../IMAGENS/fundo-site.jpg");
+	background-position: center;
+	color: #666;
+	font-family: Georgia, Times, serif;
+	line-height: 1.4rem;
+	margin:0px; 
+	}
+
+.wrapper {
+	width: 940px;
+	margin: 20px auto 20px auto;
+	border: 2px solid #000000;
+	background-color: #ffffff;
+	
+	
+	
+}
+
+header {
+	height: 160px;
+	background-image: url("..//IMAGENS/header-menu.jpg")
+	
+}
+
+
+
+h1{
+	text-indent: -9999px;
+	width: 940px;
+	height: 130px;
+	margin: 0px;
+}
+
+
+nav, footer {
+	clear: both;
+	color: #fffff;
+	background-color: #aeaca8;
+	height: 30px;
+	
+}
+
+nav ul {
+	margin: 0px;
+	padding: 5px 0px 5px 30px;
+}
+
+nav li {
+	display: inline;
+	margin-right: 40px;
+}
+
+
+
+
+
+nav li a{
+color: #ffffff;
+text-decoration: none;
+0 padding-right: 50px;
+font-size: 18px;
+position: relative;
+ }
+
+
+nav a::after{
+content:" ";
+width: 0px;
+height: 4px;
+background-image: linear-gradient(45deg, #FF0004, #FF0000);
+position: absolute;
+top: 25px;
+left: 0;
+transition: width 0.5s;
+}
+nav li a:hover::after{
+width: 60px;
+}
+
+
+
+
+
+
+nav li a {
+	color: #fff;
+}
+
+nav li a:hover, nav li a.current {
+	color: #000;
+}
+
+
+
+section.cardapio {
+	float: left;
+	width: 659px;
+	border-right: 1px solid #eee;
+}
+
+article {
+	clear: both;
+	overflow: auto;
+	width: 100%;
+}
+
+hgroup {
+	margin-top: 40px;
+}
+
+figure {
+	float: left;
+	width: 290px;
+	height: 220px;
+	padding: 5px;
+	margin: 20px;
+	border: 1px solid #eee;
+}
+
+figurecaption {
+	font-size: 90%;
+	text-align: left;
+}
+
+aside {
+	width: 230px;
+	float: left;
+	padding: 0px 0px 0px 20px;
+}
+
+aside section a {
+	display: block;
+	padding: 10px;
+	border-bottom: 1px solid #eee;
+}
+
+aside section a:hover {
+	color: #985d6a;
+	background-color: #efefef;
+}
+
+a {
+	color: #de6581;
+	text-decoration: none;
+}
+
+h1,h2,h3 {
+	font-weight: normal;
+}
+
+h2 {
+	margin: 0px 0px 10px 0px;
+	padding: 0px;
+}
+
+h3 {
+	margin: 0px 0px 10px 0px;
+	color: #de6581;
+}
+
+aside h2 {
+	padding: 30px 0px 10px 0px;
+	color: #de6581;
+}
+
+footer {
+	font-size: 80%;
+	padding: 7px 0px 0px 20px;
+}
